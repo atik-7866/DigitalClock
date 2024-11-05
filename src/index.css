@@ -1,0 +1,97 @@
+body{
+  background-image: URl("./vite.svg");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-attachment: fixed;
+  display: flex;
+  background-color: aqua;
+  min-height: 100vh;
+  /* min-width: 80vw/; */
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+
+}
+
+.container{
+  margin-left:50px ;
+  padding: 50px;
+  background-color: rgb(187, 221, 37);
+  /* border: 2px solid black; */
+  backdrop-filter: blur(6px);
+  border:5px solid purple;
+  border-radius:50%
+}
+.clock{
+  color :rgb(9, 90, 60);
+  font-weight: bolder;
+  font-size:45px;
+  font-family:monospace;
+  /* text-align: center; */
+
+
+}
+
+
+/* For 
+the stopwatch */
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border:5px solid;
+  backdrop-filter: blur(8px);
+  margin-top: 30px;
+  border:5px solid purple;
+
+  background-color: #b5df0f;
+  padding:30px;
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0,0,0,0.75);
+  
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding:10px 20px;
+  margin:5px;
+  /* min-width: ; */
+  border:none;
+  cursor:pointer;
+  color:white;
+  transition:background-color 0.5s ease;
+
+}
+
+.start-button{
+  background-color:green;
+
+}
+.start-button:hover{
+  background-color:rgb(12, 156, 12);
+
+}
+
+.stop-button{
+  background-color: red;
+}
+.stop-button:hover{
+  background-color: rgb(226, 80, 80);
+}
+
+.reset-button{
+  background-color: rgb(8, 0, 255);
+}
+.reset-button:hover{
+  background-color: rgb(80, 114, 226);
+}
+
+
